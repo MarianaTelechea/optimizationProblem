@@ -7,7 +7,8 @@ El objetivo de este proyecto es analizar las entregas de 5 camionetas de una dis
 
 ● Variables de decisión: xij{ 1 Si la camioneta hace el recorrido de la dirección i a la dirección j, 0 en caso contrario
 
-● Función objetivo → Distancias entre el punto de salida y cada uno de los diferentes puntos de entrega, al igual que las distancias entre cada punto de entrega --> Min Z = ∑i=0 ∑j=0 Dij.Xij 
+● Función objetivo → Distancias entre el punto de salida y cada uno de los diferentes puntos de entrega, al igual que las distancias entre cada punto de entrega
+  * Min Z = ∑i=0 ∑j=0 Dij.Xij 
 
 ● Restricciones → Tiempo máximo que puede trabajar un empleado, capacidad máxima de cada camioneta.
   * ∑i=0 Xij = 1
